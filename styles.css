@@ -1,0 +1,99 @@
+html, body {
+    /* background-color:black; */
+    font-family: lato, sans-serif;
+    font-weight: 325;
+    font-style: normal;
+    height:100%;
+    width:100%;
+}
+
+.media {
+    display:block;
+    text-align:center;
+}
+
+/* Banner/Logo CSS */
+.header-logo-container {
+    margin: 0 auto;
+    display:block;
+    text-align:center;
+    background-color:transparent;
+}
+.header-logo {
+    width:180px;
+}
+
+/* Navbar CSS */
+a {
+    color:rgb(199, 61, 84);;
+}
+a:hover {
+    color:rgb(236, 150, 150);
+}
+.header-navbar {
+    background-color:none;
+    z-index:999;
+    font-size:20px;
+}
+.header-navbar-link {
+    font-weight:800;
+}
+.header-navbar-link:not(:last-child) {
+    padding-right:15px;
+}
+.navbar-links {
+    list-style: none;
+}
+
+.navbar-links li {
+    display:inline-block;
+}
+.social-link {
+    float:right;
+    padding: 0px 5px;
+    font-size:20px;
+}
+
+/* Landing Page Photo CSS */
+.photo1{
+    background-image: url('./Assets/Images/IMG_3302.jpg');
+    height:100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.photo2{
+    background-image:url('./Assets/Images/IMG_4139.jpg');
+    min-height:50vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photo3{
+    background-image:url('./Assets/Images/DSC_5352.jpg');
+    height:100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Landing Page Bio */
+p {
+    color:black;
+    margin:0 auto;
+    padding: 5px 0px;
+    font-size:18px;
+}
+
+.bio {
+    width:70vw;
+    display:block;
+    margin: 0 auto;
+    padding: 25px 0px;
+    /* background-color:rgb(48, 44, 44); */
+
+}
