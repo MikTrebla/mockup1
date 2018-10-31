@@ -18,14 +18,18 @@ html, body {
     display:block;
     text-align:center;
     background-color:transparent;
+    margin: 0 auto;
+    text-align: center;
+    position:relative;
+    top:40%;
 }
 .header-logo {
-    width:180px;
+    width:300px;
 }
 
 /* Navbar CSS */
 a {
-    color:rgb(199, 61, 84);;
+    color:rgb(151, 56, 72);;
 }
 a:hover {
     color:rgb(236, 150, 150);
@@ -43,6 +47,7 @@ a:hover {
 }
 .navbar-links {
     list-style: none;
+    padding:0 0;
 }
 
 .navbar-links li {
@@ -56,29 +61,35 @@ a:hover {
 
 /* Landing Page Photo CSS */
 .photo1{
-    background-image: url('./Assets/Images/IMG_3302.jpg');
-    height:100vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.photo2{
     background-image:url('./Assets/Images/IMG_4139.jpg');
-    min-height:50vh;
+    background-image:linear-gradient(to bottom, rgba(228, 222, 222, 0.6) 0%,rgba(0,0,0,0.6) 100%), url('./Assets/Images/IMG_4139.jpg');
+    height:100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+.photo2{
+    background-image: url('./Assets/Images/IMG_3302.jpg');
+    background-image:linear-gradient(to bottom, rgba(15, 15, 15, 0.6) 0%,rgba(248, 248, 248, 0.6) 100%), url('./Assets/Images/IMG_3302.jpg');
+    min-height:50vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
 .photo3{
     background-image:url('./Assets/Images/DSC_5352.jpg');
+    background-image:linear-gradient(to bottom, rgba(104, 102, 102, 0.4) 0%,rgba(221, 221, 221, 0.4) 100%), url('./Assets/Images/DSC_5352.jpg');
     height:100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 /* Landing Page Bio */
@@ -94,6 +105,21 @@ p {
     display:block;
     margin: 0 auto;
     padding: 25px 0px;
+    background:transparent;
     /* background-color:rgb(48, 44, 44); */
 
+}
+
+.booking-container {
+    margin: 0 auto;
+    text-align: center;
+    position:relative;
+    top:50%;
+    background-color:rgb(230, 230, 230);
+    width:fit-content;
+    /* border-radius:15px; */
+}
+
+.contact-booking {
+    padding:0 5px;
 }
