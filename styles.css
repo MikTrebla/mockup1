@@ -32,12 +32,14 @@ a {
     color:rgb(151, 56, 72);;
 }
 a:hover {
-    color:rgb(236, 150, 150);
+    color:rgb(100, 60, 60);
 }
 .header-navbar {
-    background-color:none;
     z-index:999;
     font-size:20px;
+}
+.header-navbar ul li a i {
+    display:block;
 }
 .header-navbar-link {
     font-weight:800;
@@ -49,7 +51,16 @@ a:hover {
     list-style: none;
     padding:0 0;
 }
-
+.navbar-links:hover .header-navbar-link {
+    opacity:0.4;
+    transition: ease-in;
+    transition-duration: .2s;
+}
+.navbar-links:hover .header-navbar-link:hover {
+    opacity:1;
+    transition: ease-in;
+    transition-duration: .2s;
+}
 .navbar-links li {
     display:inline-block;
 }
@@ -58,7 +69,16 @@ a:hover {
     padding: 0px 5px;
     font-size:20px;
 }
-
+.navbar-links:hover .social-link {
+    opacity:0.4;
+    transition: ease-in;
+    transition-duration: .2s;
+}
+.navbar-links:hover .social-link:hover {
+    opacity:1;
+    transition: ease-in;
+    transition-duration: .2s;
+}
 /* Landing Page Photo CSS */
 .photo1{
     background-image:url('./Assets/Images/IMG_4139.jpg');
