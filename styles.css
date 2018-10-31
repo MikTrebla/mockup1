@@ -1,5 +1,5 @@
 html, body {
-    /* background-color:black; */
+    background-color: rgba(218, 216, 216, 0.4);
     font-family: lato, sans-serif;
     font-weight: 325;
     font-style: normal;
@@ -37,6 +37,9 @@ a:hover {
 .header-navbar {
     z-index:999;
     font-size:20px;
+    position:fixed;
+    top:0;
+    width:100%;
 }
 .header-navbar ul li a i {
     display:block;
