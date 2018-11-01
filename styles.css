@@ -1,5 +1,5 @@
 html, body {
-    background-color: rgba(218, 216, 216, 0.4);
+    background-color: rgba(20, 15, 15, 0.842);
     font-family: lato, sans-serif;
     font-weight: 325;
     font-style: normal;
@@ -117,7 +117,7 @@ a:hover {
 
 /* Landing Page Bio */
 p {
-    color:black;
+    color:white;
     margin:0 auto;
     padding: 5px 0px;
     font-size:18px;
@@ -145,4 +145,5 @@ p {
 
 .contact-booking {
     padding:0 5px;
+    color:black;
 }
